@@ -24,3 +24,8 @@ We do not produce knowledge, we are only porters of knowledge
 [The Julia Programming Language](https://www.youtube.com/user/JuliaLanguage)
 
 [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
+
+# Coding thingy
+## R
+[R-gallary]: tidyverse and ggplot2 (https://www.r-graph-gallery.com)
+[Plot-ly]: interactive R plots (https://plotly.com)
