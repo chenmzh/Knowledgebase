@@ -22,7 +22,7 @@ We do not produce knowledge, we are only porters of knowledge
 
 # Math
 
-# Computation
+# Computating
 ## Introduction
 [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)
 
