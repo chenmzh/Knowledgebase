@@ -27,5 +27,6 @@ We do not produce knowledge, we are only porters of knowledge
 
 # Coding thingy
 ## R
-[R-gallary]: tidyverse and ggplot2 (https://www.r-graph-gallery.com)
-[Plot-ly]: interactive R plots (https://plotly.com)
+[R-gallary: tidyverse and ggplot2](https://www.r-graph-gallery.com)
+
+[Plot-ly: interactive R plots](https://plotly.com)
