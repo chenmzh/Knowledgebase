@@ -16,6 +16,9 @@ We do not produce knowledge, we are only porters of knowledge
 
 # Math
 
+# Machine learning
+[Machine Learning for Fluid Dynamics: Patterns](https://www.youtube.com/watch?v=3fOXIbycAmc)
+
 
 # Youtuber:
 [The Julia Programming Language](https://www.youtube.com/user/JuliaLanguage)
