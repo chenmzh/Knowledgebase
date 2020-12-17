@@ -19,4 +19,5 @@ We do not produce knowledge, we are only porters of knowledge
 
 # Youtuber:
 [The Julia Programming Language](https://www.youtube.com/user/JuliaLanguage)
+
 [3Blue1Brown](https://www.youtube.com/channel/UCYO_jab_esuFRV4b17AJtAw)
