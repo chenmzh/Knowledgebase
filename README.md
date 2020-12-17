@@ -16,7 +16,11 @@ We do not produce knowledge, we are only porters of knowledge
 
 # Math
 
-# Machine learning
+# Computation
+## Introduction
+[Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)
+
+## Machine learning
 [Machine Learning for Fluid Dynamics: Patterns](https://www.youtube.com/watch?v=3fOXIbycAmc)
 
 
