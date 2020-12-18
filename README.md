@@ -26,10 +26,12 @@ https://stackexchange.com/
 
 ## Resource in Chinese
 ### Linear Algebra
-https://ccjou.wordpress.com/
+[线代启示录](https://ccjou.wordpress.com/)
+To be noticed, in Taiwan, the row and column representations would be switched.
+
 
 ### Statistics
-https://rstudio-pubs-static.s3.amazonaws.com/153235_a0277930a4924e46af765f4bbba3cdd6.html#comparing-means
+[sample size estimation with case in R](https://rstudio-pubs-static.s3.amazonaws.com/153235_a0277930a4924e46af765f4bbba3cdd6.html#comparing-means)
 
 
 # Computating
