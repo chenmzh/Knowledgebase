@@ -20,6 +20,17 @@ We do not produce knowledge, we are only porters of knowledge
 
 
 # Math
+## If You Have Any Question
+Please go to these website to find answer:
+https://stackexchange.com/
+
+## Resource in Chinese
+### Linear Algebra
+https://ccjou.wordpress.com/
+
+### Statistics
+https://rstudio-pubs-static.s3.amazonaws.com/153235_a0277930a4924e46af765f4bbba3cdd6.html#comparing-means
+
 
 # Computating
 ## Introduction
