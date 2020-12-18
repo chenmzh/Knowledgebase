@@ -41,7 +41,7 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 ## Machine learning
 [Machine Learning for Fluid Dynamics: Patterns](https://www.youtube.com/watch?v=3fOXIbycAmc)
 
-[Kaggle: the machine learning platform](https://www.kaggle.com/)
+[Kaggle: the machine learning competition platform](https://www.kaggle.com/)
 
 
 
