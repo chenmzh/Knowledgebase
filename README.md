@@ -38,6 +38,8 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 ## Introduction
 [Introduction to Computational Thinking](https://computationalthinking.mit.edu/Fall20/)
 
+[Some Visualization](https://setosa.io/ev/)
+
 ## Machine learning
 [Machine Learning for Fluid Dynamics: Patterns](https://www.youtube.com/watch?v=3fOXIbycAmc)
 
