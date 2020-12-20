@@ -45,6 +45,9 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 [Some Visualization](https://setosa.io/ev/)
 
 ## Machine learning
+
+[Introduction to Machine Learning MIT 6.036](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/about)
+
 [Machine Learning for Fluid Dynamics: Patterns](https://www.youtube.com/watch?v=3fOXIbycAmc)
 
 [Kaggle: the machine learning competition platform](https://www.kaggle.com/)

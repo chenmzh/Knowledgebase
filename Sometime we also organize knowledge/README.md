@@ -1,6 +1,6 @@
-# An Outline for Dynamic System and Mathematical Modeling for Biological System
-
-## Two courses at ETHZ during the first semester
+# Sometimes we also organize resources and produce notes and explanations on different topics.
 
 
+
+## Mathematical Modeling and Dynamic Systems on Biological Systems
 
