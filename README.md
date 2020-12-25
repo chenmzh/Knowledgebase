@@ -63,7 +63,13 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 [MIT Open Course Ware](https://www.youtube.com/user/MIT)
 
 # Coding thingy
+
+## Python
+
+[Python Package Index repository](https://pypi.org/)
+
 ## R
+
 [R-gallary: tidyverse and ggplot2](https://www.r-graph-gallery.com)
 
 [Plot-ly: interactive R plots](https://plotly.com)
