@@ -31,6 +31,7 @@ https://stackexchange.com/
 ## Resource in Chinese
 ### Linear Algebra
 [线代启示录](https://ccjou.wordpress.com/)
+
 To be noticed, in Taiwan, the row and column representations would be switched.
 
 
