@@ -5,6 +5,8 @@ We do not create knowledge, we are only porters of knowledge
 
 [How to edit this page/markdown syntax](https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet#links)
 
+[Our world in Data](https://ourworldindata.org/)
+
 # Open course ware
 [MIT Open course ware](https://ocw.mit.edu/)
 
@@ -21,6 +23,8 @@ MIT Open Learning Library is like a combination of MIT OCW and MITx, which with 
 
 #### Diffusion
 [The diffusion equation | Week 12 | MIT 18.S191 Fall 2020 | Grant Sanderson](https://www.youtube.com/watch?v=a3V0BJLIo_c)
+
+[Nonlinear dynamic system and chaos by Strogatz Cornell Spring 2014 MAE5790](https://www.youtube.com/playlist?list=PLbN57C5Zdl6j_qJA-pARJnKsmROzPnO9V)
 
 
 # Math
@@ -49,6 +53,8 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 
 [Introduction to Machine Learning MIT 6.036](https://openlearninglibrary.mit.edu/courses/course-v1:MITx+6.036+1T2019/about)
 
+[Introduction to Deep Learning MIT 6.S191](http://introtodeeplearning.com/)
+
 [Machine Learning for Fluid Dynamics: Patterns](https://www.youtube.com/watch?v=3fOXIbycAmc)
 
 [Kaggle: the machine learning competition platform](https://www.kaggle.com/)
@@ -70,6 +76,8 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 [Python Package Index repository](https://pypi.org/)
 
 ## R
+
+[Welcome | R for Data Science (had.co.nz)](https://r4ds.had.co.nz/)
 
 [R-gallary: tidyverse and ggplot2](https://www.r-graph-gallery.com)
 
