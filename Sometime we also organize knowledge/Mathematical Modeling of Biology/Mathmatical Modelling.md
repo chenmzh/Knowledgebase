@@ -16,11 +16,11 @@
 
    + Assumption: quasi-steady state $\rightarrow$ the substrate is in excess, i.e the enzyme is saturated but total concentration is constant; the complex formation step is not the rate-limiting step, i.e it reaches the steady state much faster than the 2nd step
    + $\frac{d[P]}{dt}=v_m\frac{[S]}{[S]+K_M}$, $v_m = k_2[E]_T$, $K_M = \frac{k_{-1}+k_2}{k_1}$
-   + limitation: coopertivity, inhibition, not valid if substrate and enzyme are of similar concentrations 
+   + limitation: cooperativity, inhibition, not valid if substrate and enzyme are of similar concentrations 
 
    Goldbeter-Koshlan approximation: $\ce{X<-->[K_{M1},E_1][K_{M2},E_2]X_p}$
 
-   + Assumption: a steady-state solution for a 2-state biological system. In this system, the interconversion between these two states is performed by two enzymes with opposing effect. [ref](https://en.wikipedia.org/wiki/Goldbeter–Koshland_kinetics) Both the forward the backward reactions can be described with MM equantion. The total concentration of X+Xp is constant.
+   + Assumption: a steady-state solution for a 2-state biological system. In this system, the interconversion between these two states is performed by two enzymes with opposing effect. [ref](https://en.wikipedia.org/wiki/Goldbeter–Koshland_kinetics) Both the forward the backward reactions can be described with MM equation. The total concentration of X+Xp is constant.
    + $\frac{d[X_p]}{dt} = u_1\frac{[X]_T - [X_p]}{K_{M1}+[X]_T-[X_p]} - u_2\frac{[X_p]}{K_{M2}+{X_p}}$, from the steady state solution, $\frac{[X_p]}{[X]_T}=\frac{2u_1J_2}{B + \sqrt{B^2-4(u_2-u_1)u_1J_2}}$, where $B = u_2 - u_1 + J_1u_2+J_2u_1$ and $J_1 = \frac{K_{M1}}{[X]_T}, J_2 = \frac{K_{M2}}{[X]_T}$
    + Limitation: assumptions for MM eqn should be applicable i.e saturated enzymes
 
@@ -47,7 +47,7 @@
 
    + Taylor expansion around the steady state: $f(\vec{x}) = f(\vec{x}^*) + \frac{f'(\vec{x}^*)}{1!}(\vec{x}-\vec{x}^*) + \frac{f''(\vec{x}^*)}{2!}(\vec{x}-\vec{x}^*)^2 + ...$
 
-   + Ignore the higher order terms (linear terms only): $\frac{d(\vec{x}-\vec{x}^*)}{dt}=J(\vec{x}-\vec{x}^*)$, where J is the Jacobian matrix $\rightarrow$ **How will the pertubation around the steady state ** is now the solution to $\frac{d\vec{w}}{dt}=J\vec{w}$, and $\vec{w}$ is the pertubation
+   + Ignore the higher order terms (linear terms only): $\frac{d(\vec{x}-\vec{x}^*)}{dt}=J(\vec{x}-\vec{x}^*)$, where J is the Jacobian matrix $\rightarrow$ **How will the perturbation around the steady state ** is now the solution to $\frac{d\vec{w}}{dt}=J\vec{w}$, and $\vec{w}$ is the perturbation
 
    + $$
      \begin{align}
@@ -58,7 +58,7 @@
      \end{align}
      $$
 
-2. Application: it is usefull to study the local stability of a fix point. The evolution of the perturbation around the SS is now dependent on the eigenvalue of the Jacobian; more specifically, the real part of the eigenvalues. For a 2D system, linearization tells us the stability by the trace of the Jacobian.
+2. Application: it is useful to study the local stability of a fix point. The evolution of the perturbation around the SS is now dependent on the eigenvalue of the Jacobian; more specifically, the real part of the eigenvalues. For a 2D system, linearization tells us the stability by the trace of the Jacobian.
 
 $$
 J =
@@ -73,7 +73,7 @@ $$
 $$
 
 3. Higher dimension systems $P(\lambda) = \sum_{i=0}^n \alpha_i \lambda^i$
-   + Descartes' Rule of Signs: if the sign of coeffcient has n times of change, then there is n, n-2, n-4 ... real positive roots of $\lambda$. NOTE that similarly we can let $w = - \lambda$
+   + Descartes' Rule of Signs: if the sign of coefficient has n times of change, then there is n, n-2, n-4 ... real positive roots of $\lambda$. NOTE that similarly we can let $w = - \lambda$
    + Routh-Hurwitz criterion: if the determinant of matrix arranged in row of odd coefficient + row of even coefficient + ... are all positive, then all the real parts of roots of $\lambda$ are negative
 
 ## Dynamical systems
@@ -81,7 +81,7 @@ $$
 1. Bifurcation: changing the parameters (i.e the regulatory components) result the change of stability in the fixed point or generation of a new steady state solution.
 
    + transcritical bifurcation: stability of two fixed points exchanges after collision
-   + Saddle-node bifurcation: two equilibrium points collide and nnihilate each other 
+   + Saddle-node bifurcation: two equilibrium points collide and annihilate each other 
    + Hopf-bifurcation: equilibrium point changes its stability, usually comes with generation of a limit cycle. $\rightarrow$ The real part of the eigenvalues crosses the imaginary axis.
 
    Supercirtical bifurcation: after the original equilibrium point lost its stability, a new stable steady state solution is generated to catch the trajectories $\rightarrow$ there is no sudden jump from one FP to the other. Even the new equilibrium is a stable limit cycle, the amplitude of the oscillation is gradually changing with the parameter.
@@ -151,7 +151,7 @@ $$
 
      + cascading signal amplification is possible. To achieve the same amplification, if we have more steps in between (i.e, larger i), then individual $\beta_k$ can be larger (i.e, we allow faster phosphatase )$\rightarrow$ faster (smaller $\tau$) and sharper (smaller $\theta$) signal response.
 
-   For strongly activaing cascade,
+   For strongly activating cascade,
 
    + Assumption:
      $$
@@ -164,22 +164,22 @@ $$
      [X_{p,i}] = \frac{1}{\frac{1}{[X]_T}+\frac{\beta_i}{\alpha_1}\cdot\frac{1}{[X_{p,i-1}]}}
      $$
 
-   + Signalling duration: 
+   + Signaling duration: 
 
      + If it is limited by receptors, $\theta = \frac{1}{\lambda}\ln(2+\frac{R(0)}{K_n})$
      + If limited by a particularly slow phosphatase, $\theta \approx \frac{n-j}{\beta_j}\ln\frac{\alpha}{\beta}$
      + if it is limited by a particularly fast kinase, $\theta \approx \theta_{j-1}\ln\frac{\alpha_j}{\beta}$
-     + for a strongly activation case, both kinase and phosphotase affect the signal duration. But the effect from phosphatase is larger, as limiting $\beta$ is outside of the ln but $\alpha$ is within. 
+     + for a strongly activation case, both kinase and phosphatase affect the signal duration. But the effect from phosphatase is larger, as limiting $\beta$ is outside of the ln but $\alpha$ is within. 
 
-   + Signalling amplitude: in this case, signal amplitude is defined as the concentration of $[X_p]$ at steady state.
+   + Signaling amplitude: in this case, signal amplitude is defined as the concentration of $[X_p]$ at steady state.
 
      + Amplification happens if $[X_{p,i}]>[X_{p,i-1}]$. Therefore, a slow phosphatase and a fast kinase are desired. But it also depends on the total concentration of [X]
 
-2. Feedback: how a component x affect its own dynamics. For $\frac{d[X]}{dt} = f(x,t)$, if $\frac{\partial f}{\partial x} > 0$, then it is positive feed back. if negative, then it is negative feedback.
+2. Feedback: how a component x affect its own dynamics. For $\frac{d[X]}{dt} = f(x,t)$, if $\frac{\partial f}{\partial x} > 0$, then it is positive feedback. if negative, then it is negative feedback.
 
 3. Systems with more than one steady states: nullclines have more than one intersect 
 
-   eg. in a two component system, the two species are either in mutal inhibition or mutual activation (both are positive feedback). In this simple system, negative feedback tends to drag the system back to the steady state but positive ones can amplify the pertubation, for which we can enter a new steady state. 
+   eg. in a two component system, the two species are either in mutual inhibition or mutual activation (both are positive feedback). In this simple system, negative feedback tends to drag the system back to the steady state but positive ones can amplify the perturbation, for which we can enter a new steady state. 
 
 4. biological switch: biological systems response to input in a switch-like way $\rightarrow$ input change leads to a change in steady state
 
@@ -392,13 +392,13 @@ $$
        $$
        Still, in $f_{AB}f_{BC}f_{CA}, f_{AB}f_{BA}$ there should be a **negative feedback**. If we cut off the connection between B and C, similar results can be obtained as above. In this case, **B is a buffer node that integrate out the changes in the sensor A**
 
-   + Case II: incoherent feedforward loop with a propotional node
+   + Case II: incoherent feedforward loop with a proportional node
      $$
      f_{BA}f_{CB} = f_{BB}f_{CA}\neq 0
      $$
-     Still, normally we have negatvie self-regulation. That is $f_{CB}f_{BA}, f_{CA}$ have different sign, **meaning that from A to B to C, and from A directly to C, they have different impacct (incoherent)**.
+     Still, normally we have negatvie self-regulation. That is $f_{CB}f_{BA}, f_{CA}$ have different sign, **meaning that from A to B to C, and from A directly to C, they have different impacts (incoherent)**.
 
-     Further, the impact of path way A to B to C and the impact from C to A follows $\frac{f_{BA}f_{CB}}{f_{CA}}=f_{BB}$. It can be a propotional node if $f_{BB}$ here is a constant, i.e **the node B pass the effect from A proportionally to the effect from A to C**
+     Further, the impact of path way A to B to C and the impact from C to A follows $\frac{f_{BA}f_{CB}}{f_{CA}}=f_{BB}$. It can be a proportional node if $f_{BB}$ here is a constant, i.e **the node B pass the effect from A proportionally to the effect from A to C**
      $$
      \begin{align}
      \frac{dB}{dt}&=Ak_1\frac{1-B}{1-B+K_1} - k_2\frac{B}{B+K_2}\\
@@ -406,8 +406,8 @@ $$
      \end{align}
      $$
      + To have B proportionally pass the effect of A, $f_{BA} = \text{const.} \Rightarrow (1-B) \gg K_1$, activation of B is 1st order in A, hence proportional 
-     + To have $f_{BB} = \text{const.} \Rightarrow B \ll K_2$, degradation of B is zeroth oder in B, hence propotional
-     + If $\frac{dB}{dt}$ consists of 2 linear terms, at steady state, A and B are propotional. Then to let $\frac{dC}{dt}=0$, the steady state value is independent of B and A (therefore the input).
+     + To have $f_{BB} = \text{const.} \Rightarrow B \ll K_2$, degradation of B is zeroth order in B, hence proportional
+     + If $\frac{dB}{dt}$ consists of 2 linear terms, at steady state, A and B are proportional. Then to let $\frac{dC}{dt}=0$, the steady state value is independent of B and A (therefore the input).
 
    + More component system: consider that we have changes in both signal (input) and response. Taylor expansion as well and see only the linear terms:
 
@@ -616,7 +616,7 @@ $$
        $$
        where E is the normalized eigenvectors. **For the L to be the maxima,** all the eigenvalues of Hessian matrix should be negative, and then Q < 0 (which makes sense, since $L(X_0)$ is the maximum). 
 
-       **The Q maps the X to the eigenvectors with a scaling factor**. Let Q = k < 0, then the X after eigenbasis transfer now locates on an eclipse contour with $a = \sqrt{\frac{k}{\lambda_i}}$ on the direction $\vec{e_i}$. **But the error bar is still the on projected on x/y axis**
+       **The Q maps the X to the eigenvectors with a scaling factor**. Let Q = k < 0, then the X after eigen basis transfer now locates on an eclipse contour with $a = \sqrt{\frac{k}{\lambda_i}}$ on the direction $\vec{e_i}$. **But the error bar is still the on projected on x/y axis**
 
        **NOTE** that if we have two strongly related parameters, the eclipse is elongated in the direction with smaller eigenvalue. Also, if we have weird (no eclipse-like) contours, it means that the Gaussian process is not good.
 
