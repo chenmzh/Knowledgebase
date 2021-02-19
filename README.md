@@ -42,7 +42,7 @@ To be noticed, in Taiwan, the row and column representations would be switched.
 ### Statistics
 [sample size estimation with case in R](https://rstudio-pubs-static.s3.amazonaws.com/153235_a0277930a4924e46af765f4bbba3cdd6.html#comparing-means)
 
-[Design of Enexperiment](https://n.ethz.ch/~kahans/doe2020/) (More statistics and R!)
+[Design of Experiment](https://n.ethz.ch/~kahans/doe2020/) (More statistics and R!)
 
 
 # Computating
